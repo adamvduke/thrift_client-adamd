@@ -3,7 +3,7 @@
 VERSION = File.read("CHANGELOG")[/^\s*v([\d\w\.]+)(\.|\s|$)/, 1]
 
 Gem::Specification.new do |s|
-  s.name          = "thrift_client"
+  s.name          = "thrift_client-adamd"
   s.version       = VERSION
 
   s.platform      = Gem::Platform::RUBY
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.require_paths = ["lib"]
 
-  s.add_dependency("thrift", ["~> 0.9.0"])
+  s.add_dependency("thrift-adamd", ["~> 1.0.0.0"])
 
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rack'

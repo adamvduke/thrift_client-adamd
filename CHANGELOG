@@ -1,3 +1,5 @@
+v0.9.4 Namespace thrift_client so it can depend on thrift-adamd
+
 v0.9.3 Remove dependency on Mongrel
 Allow users to create wrapped exceptions eagerly
 
